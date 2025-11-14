@@ -1,6 +1,8 @@
-# Meadows Leverage Points Analyzer - Claude Skill
+# Meadows Leverage Points Analyzer - Claude Skill (v2.0)
 
 A Claude skill for analyzing systems and identifying intervention points using Donella Meadows' famous "12 Leverage Points" framework.
+
+**Version 2.0** includes enhanced analysis framework, 7 example analyses, prioritization tools, and quick reference guide.
 
 ## What This Skill Does
 
@@ -127,12 +129,39 @@ mismatch between the system's goal and user needs.
 - Identifies unintended consequences
 - Focuses on structure over symptoms
 
+## What's New in v2.0
+
+**Enhanced Analysis Framework**:
+- 4-phase structured process (Mapping → Identification → Prioritization → Design)
+- System mapping templates for feedback loops, delays, and information gaps
+- Prioritization matrix (Impact × Feasibility scoring)
+- Anti-pattern recognition (8 common traps to avoid)
+- Quick diagnostic checklist
+
+**More Examples**:
+- 7 detailed analyses (was 3): Traffic, Software Team Burnout, Social Media, Exercise Habits, ER Overcrowding, Marketplace Quality, Climate Change
+- Covers personal, organizational, and societal systems
+- Real-world patterns and lessons across domains
+
+**Better Outputs**:
+- Enhanced output format with system dynamics mapping
+- Intervention roadmap (immediate/short-term/long-term)
+- Alternative formats (Quick Scan, Workshop Guide)
+- Priority scores and monitoring indicators
+
+**Quick Reference Guide**:
+- One-page cheat sheet (QUICK_REFERENCE.md)
+- All 12 leverage points in table format
+- Decision matrices and templates
+- Common patterns by system type
+
 ## Files in This Skill
 
-- **SKILL.md** - Main skill prompt (what Claude uses)
+- **SKILL.md** - Main skill prompt with enhanced 4-phase framework
 - **THEORY.md** - Detailed theory reference and background
+- **EXAMPLES.md** - 7 detailed example analyses across domains
+- **QUICK_REFERENCE.md** - One-page cheat sheet and templates
 - **README.md** - This file (usage instructions)
-- **EXAMPLES.md** - Sample analyses (coming soon)
 
 ## Tips for Best Results
 
@@ -184,14 +213,32 @@ See `THEORY.md` for:
 - **Simplifies complex reality**: Models are useful but not complete
 - **Context matters**: Same leverage point may work differently in different systems
 
-## Feedback and Iteration
+## Version History
 
-This is v1.0 - a simple working version. Future enhancements could include:
-- Interactive system mapping
+**v2.0** (Current):
+- Enhanced 4-phase analysis framework
+- 7 detailed examples across domains
+- Prioritization matrix and scoring
+- Anti-pattern recognition
+- Quick reference guide
+- System dynamics mapping
+- Intervention roadmaps
+
+**v1.0**:
+- Basic leverage point identification
+- 3 initial examples
+- Simple output format
+
+## Future Enhancements
+
+Potential additions for v3.0:
+- Interactive system mapping with visual diagrams
 - Causal loop diagram generation
-- Multi-system comparison
-- Intervention sequencing and timing
-- Stock-and-flow modeling integration
+- Multi-system comparison and pattern matching
+- Intervention sequencing and timing analysis
+- Integration with stock-and-flow modeling
+- Case study library with searchable patterns
+- Leverage point decision trees
 
 ## Attribution
 
